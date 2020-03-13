@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+   <EditText
+       android:id="@+id/edittext1"
+       android:layout_width="300dp"
+       android:layout_marginTop="200dp"
+       android:layout_height="50dp"
+       android:digits="1234567890"
+       android:maxLength="10"
+       android:textColorHint="#000000"
+       android:paddingLeft="20dp"
+       android:background="@drawable/image_b"
+       android:inputType="phone"
+       android:layout_centerHorizontal="true"
+    android:hint="Enter No"
+       />
+    <Button
+        android:id="@+id/call"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/call"
+        />
+
+</RelativeLayout>
