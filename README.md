@@ -49,5 +49,4 @@ _Let's write the code to make the phone call via intent._
             }
         });
 ```
-<br>
 ![Design](call.jpg)
