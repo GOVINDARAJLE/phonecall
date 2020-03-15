@@ -50,4 +50,4 @@ _Let's write the code to make the phone call via intent._
         });
 ```
 <br>
-![Design](rating.jpg)
+![Design](call.jpg)
